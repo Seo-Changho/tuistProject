@@ -1,0 +1,3 @@
+[submodule "Projects/SeoAppKit"]
+	path = Projects/SeoAppKit
+	url = https://github.com/Seo-Changho/SeoAppKit.git

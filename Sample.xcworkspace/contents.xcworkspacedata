@@ -13,5 +13,8 @@
       <FileRef
          location = "group:SampleUI/SampleUI.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:SeoAppKit/SeoAppKit.xcodeproj">
+      </FileRef>
    </Group>
 </Workspace>
