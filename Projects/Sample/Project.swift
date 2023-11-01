@@ -69,7 +69,8 @@ let project = Project(
             dependencies: [
                 .package(product: "Alamofire"),
                 .project(target: "SampleKit", path: .relativeToRoot("Projects/SampleKit")),
-                .project(target: "SampleUI", path: .relativeToRoot("Projects/SampleUI"))
+                .project(target: "SampleUI", path: .relativeToRoot("Projects/SampleUI")),
+                .project(target: "SeoAppKit", path: .relativeToRoot("Projects/SeoAppKit"))
             ]
         ),
         Target(

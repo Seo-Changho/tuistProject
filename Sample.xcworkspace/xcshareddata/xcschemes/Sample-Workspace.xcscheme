@@ -90,6 +90,34 @@
                ReferencedContainer = "container:Projects/SampleUI/SampleUI.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E2581FFBF1732AA8537F99A8"
+               BuildableName = "SeoAppKit.framework"
+               BlueprintName = "SeoAppKit"
+               ReferencedContainer = "container:Projects/SeoAppKit/SeoAppKit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "50870F33FA4BFA86A576C0CB"
+               BuildableName = "SeoAppKitTests.xctest"
+               BlueprintName = "SeoAppKitTests"
+               ReferencedContainer = "container:Projects/SeoAppKit/SeoAppKit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -130,6 +158,16 @@
                ReferencedContainer = "container:Projects/SampleUI/SampleUI.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "50870F33FA4BFA86A576C0CB"
+               BuildableName = "SeoAppKitTests.xctest"
+               BlueprintName = "SeoAppKitTests"
+               ReferencedContainer = "container:Projects/SeoAppKit/SeoAppKit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <CodeCoverageTargets>
          <BuildableReference
@@ -163,7 +201,7 @@
       </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
-      buildConfiguration = "Prod"
+      buildConfiguration = "Alpha"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
@@ -183,7 +221,7 @@
       buildConfiguration = "Alpha">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Prod"
+      buildConfiguration = "Alpha"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
